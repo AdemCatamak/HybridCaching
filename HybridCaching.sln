@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{207B51AB-6835-48FF-9DB2-A6511A949E57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{8D0CE8B4-6ECB-46E6-A692-FF8F407B20F6}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		docker-compose.yml = docker-compose.yml
+		Dockerfile-nginx = Dockerfile-nginx
+		nginx\nginx.conf = nginx\nginx.conf
+		nginx\proxy.conf = nginx\proxy.conf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCaching.Api", "Src\HybridCaching.Api\HybridCaching.Api.csproj", "{0404A5B9-5005-45C3-93AE-5250B024C684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0404A5B9-5005-45C3-93AE-5250B024C684} = {207B51AB-6835-48FF-9DB2-A6511A949E57}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0404A5B9-5005-45C3-93AE-5250B024C684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0404A5B9-5005-45C3-93AE-5250B024C684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0404A5B9-5005-45C3-93AE-5250B024C684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0404A5B9-5005-45C3-93AE-5250B024C684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
