@@ -30,6 +30,6 @@ services:
       - ./nginx/proxy.conf:/etc/nginx/proxy.conf:ro
       - ./nginx/logs/:/var/log/nginx/
     ports:
-      - '5000:80'
+      - '5001:80'
     depends_on:
       - hybrid-caching-app

@@ -9,9 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 		Dockerfile-nginx = Dockerfile-nginx
 		nginx\nginx.conf = nginx\nginx.conf
 		nginx\proxy.conf = nginx\proxy.conf
+		ReadMe.md = ReadMe.md
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCaching.Api", "Src\HybridCaching.Api\HybridCaching.Api.csproj", "{0404A5B9-5005-45C3-93AE-5250B024C684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{B6181DB1-2EA0-4EE0-84AB-F10B192ACEAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
