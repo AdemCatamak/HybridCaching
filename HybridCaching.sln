@@ -6,7 +6,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionF
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
 		docker-compose.yml = docker-compose.yml
-		Dockerfile-nginx = Dockerfile-nginx
 		nginx\nginx.conf = nginx\nginx.conf
 		nginx\proxy.conf = nginx\proxy.conf
 		ReadMe.md = ReadMe.md
